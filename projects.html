@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134923532-1"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-134923532-1');
+        </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Shashank Varshney - Resume / CV / </title>
+        <title> Projects</title>
 
         <!-- Icon css link -->
         <link href="vendors/material-icon/css/materialdesignicons.min.css" rel="stylesheet">
@@ -86,7 +95,6 @@
                             <li class="active" data-filter="*"><a href="">All</a></li>
                             <li data-filter=".pg"><a href="">M.Tech</a></li>
 			    <li data-filter=".ug"><a href="">B.Tech</a></li>
-                           <!-- <li data-filter=".marketing"><a href="">Smart Agriculture</a></li> -->
                         </ul>
                     </div>
                     <div class="row">
@@ -98,7 +106,10 @@
                                     </div>
                                     <div class="portfolio_title">
                                         <a href="#"><h4>NanoTherm</h4></a>
-                                        <h5>An </h5>
+                                        <h5>
+						An Analytical Fourier-Boltzmann Framework for Full
+						Chip Thermal Simulations. (<b>Work in progress</b>)
+					</h5>
                                     </div>
                                 </div>
                             </div>
@@ -109,20 +120,44 @@
                                     </div>
                                     <div class="portfolio_title">
                                         <a href="#"><h4>Stream cipher</h4></a>
-                                        <h5>An </h5>
+                                        <h5 align = "justify">
+						a new checkpointable stream cipher mechanism that is
+a hybrid of block and stream ciphers. It combines the advantages of both by creating a mechanism to
+regularly checkpoint the internal state of a stream cipher. The state is encrypted using block
+ciphers and this gives us the benefit of both the mechanisms. We show that we have a comparable
+throughput as a fast stream or block ciphers. (<b>Work in progress</b>)
+					</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 pg">
                                 <div class="portfolio_item">
+					<a href="https://sites.google.com/view/highspeedsram/home"
+                                        target = "_blank">
                                     <div class="portfolio_img">
                                         <img src="img/portfolio/sram.png" alt="">
                                     </div>
                                     <div class="portfolio_title">
-                                        <a href="#"><h4>High speed 1Mb SRAM </h4></a>
+                                        <a href="https://sites.google.com/view/highspeedsram/home"
+					target = "_blank">
+					<h4>High speed 1Mb SRAM</h4></a>
                                         <h5>An </h5>
                                     </div>
-                                </div>
+                                </div></a>
+                            </div>
+                            <div class="col-md-4 pg">
+                                <div class="portfolio_item">
+					<a href="https://arxiv.org/pdf/1809.03147.pdf"
+                                        target = "_blank">
+                                    <div class="portfolio_img">
+                                        <img src="img/portfolio/leakage.png" alt="Leakage">
+                                    </div>
+                                    <div class="portfolio_title">
+                                        <a href="https://arxiv.org/pdf/1809.03147.pdf"
+					target = "_blank">
+					<h4>Is leakage power a linear function of temperature?</h4></a>
+                                    </div>
+                                </div></a>
                             </div>
 			    <div class="col-md-4 pg">
                                 <div class="portfolio_item">
@@ -148,14 +183,16 @@
                             </div>
                             <div class="col-md-4 photo ug">
                                 <div class="portfolio_item">
+				<a href="http://soilhealthcard.tk" target = "_blank">
                                     <div class="portfolio_img">
                                         <img src="img/portfolio/crop.jpg" alt="">
                                     </div>
                                     <div class="portfolio_title">
-                                        <a href="http://soilhealthcard.pe.hu/"><h4>SmartAgri</h4></a>
-                                        <h5>Smart agriculture data acquisition system based on the STMicroelectronics Nucleo platform.</h5>
+                                        <a href="http://soilhealthcard.tk" target = "_blank"><h4>SmartAgri</h4></a>
+					<h5>Smart agriculture data acquisition system based on the
+					STMicroelectronics Nucleo platform.</h5>
                                     </div>
-                                </div>
+                                </div></a>
                             </div>
                             <div class="col-md-4 design ug">
                                 <div class="portfolio_item">
@@ -164,20 +201,28 @@
                                     </div>
                                     <div class="portfolio_title">
                                         <a href=""><h4>SPI I2C EEPORM firmware for Nucelo 64</h4></a>
-                                        <h5>Firmware for Nucelo 64 borad to read or write data to SPI or I<sup>2</sup>C EEPROM chips via a PC using UART.</h5>
+                                        <h5>Firmware for Nucelo 64 borad to read or write data to SPI or 
+					    I<sup>2</sup>C EEPROM chips via a PC using UART.
+					</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 photo ug">
                                 <div class="portfolio_item">
-                                    <div class="portfolio_img">
-                                        <img src="img/portfolio/render.jpg" alt="img/portfolio/render2.jpg">
-                                    </div>
+				<a href="https://sites.google.com/view/amuvision/home"
+                                 target = "_blank">
+                                    <div class="portfolio_img">	
+                                        <img src="img/portfolio/render.jpg" alt="VISION prototype">
+				    </div>
                                     <div class="portfolio_title">
-					<a href="#"><h4>Vision</h4></a>
-                                        <h5>An ultra - low cost portable indoor/outdoor smart cane system for visually impaired.</h5>
+					<a href="https://sites.google.com/view/amuvision/home"
+					target = "_blank"><h4>Vision</h4></a>
+                                        <h5>
+						An ultra - low cost portable indoor/outdoor smart cane system 
+						for visually impaired.
+					</h5>
                                     </div>
-                                </div>
+                                </div></a>
                             </div>
                             <div class="col-md-4 photo ug">
                                 <div class="portfolio_item">
